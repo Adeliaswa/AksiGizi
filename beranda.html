@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aksi Gizi</title>
+  <link rel="stylesheet" href="beranda.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5/FT7ShWmTCsZQ3Pt8xE3LM8JGpqN3rY2c5pZ9ZJ2E6VVDtFQiw03S+1kxZt2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Mobile Header -->
+  <div class="mobile-header">
+    <div class="mobile-logo">
+      <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748399123/Untitled73_20250506220807_kgrk0c.svg" alt="Logo Aksi Gizi" />
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" onclick="toggleMenu()">&times;</div>
+    <ul>
+      <li><a href="beranda.html">Beranda</a></li>
+      <li><a href="tentang.html">Tentang Kami</a></li>
+      <li><a href="info.html">Informasi</a></li>
+      <li><a href="donation.html">Donasi</a></li>
+    </ul>
+  </div>
+
+  <!-- Desktop Header -->
+  <div class="hero">
+    <div class="header">
+      <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748399123/Untitled73_20250506220807_kgrk0c.svg" alt="Logo" class="logo">
+      <div class="navbar">
+        <a href="beranda.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="info.html">Informasi</a>
+        <a href="donation.html">Donasi</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Konten -->
+  <section class="content-section">
+    <h1>AKSI GIZI</h1>
+    <hr class="underline">
+    <p>Masih banyak masyarakat, terutama di daerah miskin dan terpencil, yang mengalami kelaparan akibat sulitnya akses terhadap makanan bergizi dan rendahnya kesadaran akan pentingnya gizi. Pada 2023, Indonesia mencatat skor 17,6 dalam Global Hunger Index (GHI), masuk kategori "sedang", dan menempati peringkat ketiga tertinggi di Asia Tenggara setelah Timor Leste dan Laos. Minimnya informasi, edukasi, dan platform donasi yang transparan memperburuk kondisi ini.</p>
+    <p>Website ini hadir untuk meningkatkan kesadaran tentang isu kelaparan, menyediakan informasi seputar fakta dan solusi, serta memfasilitasi donasi makanan secara mudah dan transparan. Dengan platform ini, diharapkan masyarakat dapat berkontribusi dalam upaya mengurangi kelaparan.</p>
+
+    <!-- Footer -->
+    <div class="footer-bottom">
+      <div class="footer-left">
+        <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748399123/Untitled73_20250506220807_kgrk0c.svg" alt="Logo Kecil" class="logo-small">
+      </div>
+      <div class="footer-right"></div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/16Kq4BRrQi/?mibextid=wwXIfr">
+            <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748401296/Facebook_sjxqzc.svg" alt="Facebook" class="social-icon-img" />
+          </a>
+          <a href="https://www.instagram.com/aksi_gizi?igsh=aTByZnA3a3Iza3I1&utm_source=qr">
+            <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748401295/Instagram_n9d68u.svg" alt="Instagram" class="social-icon-img" />
+          </a>
+          <a href="https://www.linkedin.com/in/aksi-gizi-523029369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+            <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748401295/Linkedin_ktf3sq.svg" alt="LinkedIn" class="social-icon-img" />
+        <a href="https://youtube.com/@aksigizi?si=isJawLjJaGCZGvSw">
+            <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748401295/Youtube_c5j8oh.svg" alt="YouTube" class="social-icon-img" />
+        </a>
+          </a>
+          <a href="mailto:aksigizi205@gmail.com">
+            <img src="https://res.cloudinary.com/dncuggzvl/image/upload/v1748401295/mail_y3hzkb.svg" alt="Email" class="social-icon-img" />
+          </a>
+        </div>
+        <div class="email">aksigizi205@gmail.com</div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('mobileNav');
+      nav.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
